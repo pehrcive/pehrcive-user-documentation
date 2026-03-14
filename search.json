@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "PEHRCIVE - User Manual",
+    "title": "PEHRCIVE - User Documentation",
     "section": "",
     "text": "Preface\n\n\n\nFigure: PERHCIVE\n\n\nPEHRCIVE: Platform for Evaluating Human-Robot Collaboration and Interaction in Virtual Environments\nThis work was developed in the scope of the “TRUSTYCOBOTS: Human-like or machine-like? Tracking psychophysiological components of trust in human-robot collaboration” project.",
     "crumbs": [
@@ -14,7 +14,7 @@
     "href": "00-introduction.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "The following manual presents the documentation of the PEHRCIVE platform, which stands for “Platform for Evaluating Human-Robot Collaboration and Interaction in Virtual Environments”. This platform is designed to facilitate the evaluation of human-robot collaboration and interaction in virtual environments, providing researchers with tools and resources to conduct experiments and analyze data effectively.",
+    "text": "The following documentation presents the documentation of the PEHRCIVE platform, which stands for “Platform for Evaluating Human-Robot Collaboration and Interaction in Virtual Environments”. This platform is designed to facilitate the evaluation of human-robot collaboration and interaction in virtual environments, providing researchers with tools and resources to conduct experiments and analyze data effectively.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
