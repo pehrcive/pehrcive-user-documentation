@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PEHRCIVE - User Manual",
+    "section": "",
+    "text": "Preface\n\n\n\nFigure: PERHCIVE\n\n\nPEHRCIVE: Platform for Evaluating Human-Robot Collaboration and Interaction in Virtual Environments\nThis work was developed in the scope of the “TRUSTYCOBOTS: Human-like or machine-like? Tracking psychophysiological components of trust in human-robot collaboration” project.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "00-introduction.html",
+    "href": "00-introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "The following manual presents the documentation of the PEHRCIVE platform, which stands for “Platform for Evaluating Human-Robot Collaboration and Interaction in Virtual Environments”. This platform is designed to facilitate the evaluation of human-robot collaboration and interaction in virtual environments, providing researchers with tools and resources to conduct experiments and analyze data effectively.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "01-setup.html",
+    "href": "01-setup.html",
+    "title": "2  Setup",
+    "section": "",
+    "text": "2.1 Hardware Requirements\nBefore running the software, ensure the hardware is ready:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-setup.html#hardware-requirements",
+    "href": "01-setup.html#hardware-requirements",
+    "title": "2  Setup",
+    "section": "",
+    "text": "VR Headset: Connect the HTC Vive or SteamVR headset to your PC.\nSensors: Ensure all base stations are powered and visible.\n\n\n\n\n\n\n\nImportantHeadset Connection\n\n\n\nThe application may fail to launch if SteamVR is not detecting the headset. Put on the headset to wake it up before starting the software.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-setup.html#software-installation-launch",
+    "href": "01-setup.html#software-installation-launch",
+    "title": "2  Setup",
+    "section": "2.2 Software Installation & Launch",
+    "text": "2.2 Software Installation & Launch\n\nDownload the latest build of the software from the official PEHRCIVE repository.\nNavigate to the software installation folder.\nClick PEHRCIVE.exe to launch the application.\nOnce the application is running, proceed to the Experiment Configuration dashboard.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02-configuration.html",
+    "href": "02-configuration.html",
+    "title": "3  Configuration",
+    "section": "",
+    "text": "3.1 Global Settings\nThe Experiment Configuration dashboard allows you to design the flow of the experiment. You can create a new configuration or import an existing one.\nLocated on the left panel, these settings persist throughout the experiment:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Configuration</span>"
+    ]
+  },
+  {
+    "objectID": "02-configuration.html#global-settings",
+    "href": "02-configuration.html#global-settings",
+    "title": "3  Configuration",
+    "section": "",
+    "text": "Participant ID: Enter the participant’s ID here.\nSpawner Position: Select the human spawner position (Left or Right).\nEye Tracking & Calibration: Enable checkboxes for eye tracking and logging (during the experiment) and eye calibration, prior to the experiment and necessary to ensure accurate data collection.\nData Output Path: Select the output folder for experiment data, the collected data will be saved in a folder with the input from the Participant ID field, inside the folder defined in the Data Output Path.\nLoad Configuration: Opens a file chooser window that allows users to select a JSON file containing a previously saved configuration.\nSave Configuration: Opens a file chooser window that allows users to save the current experimental procedure timeline entries in a JSON file.\nRandomization: Randomize the order of the conditions, this only applies to the task conditions (colored green), the remaining experimental blocks order does not change (instructions, questionnaires and pauses).\nLoad Default Configuration: Loads a default configuration to the experimental procedure timeline to be used as example.\nClear All Configuration: Clears all the entries (experimental blocks) in the experimental procedure timeline.\nStart Experiment: Begin the experiment respecting the order and configuration defined in the experimental procedure timeline entries.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Configuration</span>"
+    ]
+  },
+  {
+    "objectID": "02-configuration.html#experimental-procedure-timeline-settings",
+    "href": "02-configuration.html#experimental-procedure-timeline-settings",
+    "title": "3  Configuration",
+    "section": "3.2 Experimental Procedure Timeline Settings",
+    "text": "3.2 Experimental Procedure Timeline Settings\nYou can add specific experimental conditions to the timeline. For each condition, you can configure:\n\n3.2.1 Instructions\nUpdate the instruction text and configure trial (demo) slots.\n\n3.2.1.1 Basic Settings\n\nName\n\nThe name of the instructions experimental block.\n\nInstructions Text\n\nThe text displayed inside the virtual environment in the beginning of the instructions scene, to instruct/guide participants.\n\n\n\n\n3.2.1.2 Trial Configuration\n\nNumber of Insertion Slots Columns\n\nThe number of columns corresponding to the insertion slot grid.\n\nNumber of Insertion Slots Rows\n\nThe number of rows corresponding to the insertion slot grid.\n\n\n\n\n\n3.2.2 Task Conditions\n\nTask Parameters: Set the number of trials, squares per trial, and collaboration type (Sequential vs. Simultaneous).\nRobot Parameters: Select the robot type (e.g., Kuka) and adjust parameters like Distance, Velocity, and Target Velocity. \nAmbient Sound: Add specific audio files for the condition.\n\n\n\n3.2.3 Questionnaires\n\n\nQuestionnaires: Add “Differential Semantic” or “Likert Scale” questionnaires. You can customize the questions and items.\n\n\n\n3.2.4 Pauses\n\nPauses: Set a break timer that can be resumed manually or automatically.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Configuration</span>"
+    ]
+  },
+  {
+    "objectID": "03-running.html",
+    "href": "03-running.html",
+    "title": "4  Running the Experiment",
+    "section": "",
+    "text": "4.1 VR View & Task Execution\nOnce the configuration is complete, click Start Experiment.\nThe participant will see instructions in the virtual display monitor to their right inside the virtual reality environment.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Running the Experiment</span>"
+    ]
+  },
+  {
+    "objectID": "03-running.html#vr-view-task-execution",
+    "href": "03-running.html#vr-view-task-execution",
+    "title": "4  Running the Experiment",
+    "section": "",
+    "text": "Initiation: Read the instructions and press the space bar to begin.\nThe Task: During each trial, grab the colored block and place it in the matching colored area.\n\n\n4.1.1 Collaboration Modes\n\nSequential Condition: The user must wait for the robot to complete its turn before acting.\nSimultaneous Condition: The user places the block immediately without waiting for the robot.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Running the Experiment</span>"
+    ]
+  },
+  {
+    "objectID": "03-running.html#handling-robot-errors",
+    "href": "03-running.html#handling-robot-errors",
+    "title": "4  Running the Experiment",
+    "section": "4.2 Handling Robot Errors",
+    "text": "4.2 Handling Robot Errors\nIf you enabled Robot Error Configuration in the settings, the robot may intentionally fail a task, according to the configuration. * Ensure the participant understands to continue the block-grabbing tasks until all trials are complete, regardless of robot behavior.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Running the Experiment</span>"
+    ]
+  },
+  {
+    "objectID": "03-running.html#completion",
+    "href": "03-running.html#completion",
+    "title": "4  Running the Experiment",
+    "section": "4.3 Completion",
+    "text": "4.3 Completion\nAfter finishing all trials, the participant can answer questionnaires using the display monitor to their right inside the virtual reality environment.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Running the Experiment</span>"
+    ]
+  }
+]
